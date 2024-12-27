@@ -7,22 +7,17 @@
     flex-direction: column;
     align-items: center;
     background-color: black;
-    width: 100vh;
+    width: 800px;
     height: 100vh;
 }
 
-.display {
-    display: flex;
+#display {
     justify-content: flex-end;
     align-items: flex-end;
-    height: 250px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    height: 125px;
     width: 800px;
-}
-
-.numbers{
-    font-size: 120px;
-    color: white;
-    font-weight: bold;
 }
 
 .buttons {
