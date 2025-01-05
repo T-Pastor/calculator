@@ -12,12 +12,21 @@
 }
 
 #display {
-    justify-content: flex-end;
-    align-items: flex-end;
+    display: flex;
+    flex-basis: 1;
     flex-wrap: wrap;
-    flex-grow: 1;
-    height: 125px;
+    height: 250px;
     width: 800px;
+}
+
+#digits {
+    justify-content: flex-end;
+    align-items: center;
+    width: 800px;
+    height: 250px;
+    font-size: 175px;
+    color: white;
+    font-weight: bold;
 }
 
 .buttons {
@@ -50,6 +59,22 @@
 
 .number {
     background-color: lightblue;
+    border: 2px solid black;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+.function {
+    background-color: darkgrey;
+    border: 2px solid black;
+    padding: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+.equals {
+    background-color: darkgrey;
     border: 2px solid black;
     padding: 20px;
     height: 100px;
