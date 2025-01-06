@@ -13,7 +13,7 @@
 
 #display {
     display: flex;
-    flex-basis: 1;
+    flex-basis: 1, 1, 800px;
     flex-wrap: wrap;
     height: 250px;
     width: 800px;
@@ -22,9 +22,10 @@
 #digits {
     justify-content: flex-end;
     align-items: center;
+    flex-shrink: 1;
     width: 800px;
     height: 250px;
-    font-size: 175px;
+    font-size: 150px;
     color: white;
     font-weight: bold;
 }
