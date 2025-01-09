@@ -2,82 +2,69 @@
     margin: 0;
 }
 
-.calculator{
+#calculator{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     background-color: black;
-    width: 800px;
+    width: 100vw;
     height: 100vh;
 }
 
-#display {
-    display: flex;
-    flex-basis: 1, 1, 800px;
-    flex-wrap: wrap;
-    height: 250px;
-    width: 800px;
-}
-
 #digits {
-    justify-content: flex-end;
-    align-items: center;
-    flex-shrink: 1;
-    width: 800px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
     height: 250px;
     font-size: 150px;
     color: white;
     font-weight: bold;
-}
-
-.buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 36px;
-    gap: 10px;
-    width: 800px;
-    height: 500px;
-    color: black;
+    padding-right: 20px;
 }
 
 .row {
     display: flex;
-    justify-content: space-around;
-    width: 800px;
-    height: 100px;
+    width: 100vw;
+    flex-grow: 1;
+    font-size: 25px;
 }
 
-
-
 .operator {
+    display: flex;
+    flex: 1 1 0px;
+    align-items: center;
+    justify-content: center;
     background-color: darkgrey;
     border: 2px solid black;
     padding: 20px;
-    height: 100px;
-    width: 200px;
 }
 
 .number {
+    display: flex;
+    flex: 1 1 0px;
+    align-items: center;
+    justify-content: center;
     background-color: lightblue;
     border: 2px solid black;
     padding: 20px;
-    height: 100px;
-    width: 200px;
 }
 
 .function {
+    display: flex;
+    flex: 1 1 0px;
+    align-items: center;
+    justify-content: center;
     background-color: darkgrey;
     border: 2px solid black;
     padding: 20px;
-    height: 100px;
-    width: 200px;
 }
 
 .equals {
+    display: flex;
+    flex: 1 1 0px;
+    align-items: center;
+    justify-content: center;
     background-color: darkgrey;
     border: 2px solid black;
     padding: 20px;
-    height: 100px;
-    width: 200px;
 }
